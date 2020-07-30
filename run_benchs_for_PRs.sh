@@ -4,14 +4,14 @@
 set -e
 
 # Prepare system for benchmarking
-sudo python -m pyperf system tune
+sudo python3 -m pyperf system tune
 
 cleanup()
 {
     echo "================================================================="
     echo "=========== Reseting system to normal settings =================="
     echo "================================================================="
-    sudo python -m pyperf system reset
+    sudo python3 -m pyperf system reset
 }
 trap cleanup EXIT
 

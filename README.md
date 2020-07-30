@@ -9,6 +9,7 @@ Only the benchmarks under the folder `bench/perf_monitoring` were adapted.
 - Git
 - C++11 standard compliant compiler
 - An internet connection for the 1st compilation (will fetch google benchmark and eigen)
+- python3 and the pyperf module installed if you want to use the MR replay script
 
 ## How to use
 
