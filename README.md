@@ -5,7 +5,7 @@ Only the benchmarks under the folder `bench/perf_monitoring` were adapted.
 
 ## Requirements
 
-- CMake
+- CMake 3.15+
 - Git
 - C++11 standard compliant compiler
 - An internet connection for the 1st compilation (will fetch google benchmark and eigen)
